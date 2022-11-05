@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function Rama(){
     return(
         <div>
@@ -9,6 +10,7 @@ function Rama(){
             <input type="text" placeholder="Enter name"></input><br/>
             <label>password</label><br/>
             <input type="password" placeholder="enter password"></input>
+            <Link to='/home'>Home</Link>
         </form>
         </div>
     )

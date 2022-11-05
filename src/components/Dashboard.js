@@ -7,6 +7,7 @@ import First from "./First";
     render(){
         return(
           <div>
+            <h1>Hi guru welcome </h1>
             <h1>{this.state.salary}</h1>
             < First name="guru"/>
             < First age="23"/>
